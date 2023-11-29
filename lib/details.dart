@@ -9,6 +9,7 @@ class Location extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.brown.shade50,
       body: SingleChildScrollView(
         child: Column(
           children: [
